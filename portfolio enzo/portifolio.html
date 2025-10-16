@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(122, 122, 121);
+            padding: 20px 0;
+            text-align: center;
+            nav a{
+                color: rgb(170, 200, 226);
+                margin: 0 15px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+        body{
+            margin: 0%;
+            padding: 0%;
+            border: 0%;
+            margin-bottom: -10px;
+        }
+
+        div{
+            padding: 40px;
+            background: rgb(146, 171, 180);
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 8px 5px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        form div{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Enzo Gomes Fornaciari</h1>
+        <nav>
+            <a href="">Sobre</a>
+            <a href="">Projetos</a>
+            <a href="">Habilidades</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    
+    <div>
+        <h2>Sobre Mim</h2>
+        <p>Sou engenheiro de softare novato na área. tenho conhecimento em HTML e CSS.</p>
+    </div>
+
+    <div>
+        <h2>Projetos</h2>
+        <ul>
+            <li>Portfolio-web: site pessoal com projetos e feitos</li>
+            <li>App de Tarefa: Aplicativo simples para organizar as tarefas</li>
+            <li>calculadora financeira: ferramentas para controle de gastos</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Html e CSS</li>
+            <li>Design por codigo</li>
+            <li>Design responsivel</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Contato</h2>
+        <form action="mailto:fornaciarienzo@gmail.com" method="post">
+            <div class="form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <br>
+                <label for="mensagem">Mensagen:</label>
+                <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
